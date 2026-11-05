@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <!-- .NET Framework 4.8: шаблон «Модель ADO.NET EDM» и Entity Framework 6 из методички -->
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>Lab_rab2_EDM_Shumihin_A_U_BPIz_23_02</RootNamespace>
+    <UseWPF>true</UseWPF>
+    <LangVersion>latest</LangVersion>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Entity Framework 6 (добавляется автоматически при создании модели ADO.NET EDM) -->
+    <PackageReference Include="EntityFramework" Version="6.5.1" />
+  </ItemGroup>
+
+</Project>
